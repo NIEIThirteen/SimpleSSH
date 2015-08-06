@@ -1,0 +1,126 @@
+/*=========椤甸潰鍏冪礌鍩烘湰鏍峰紡鐨勮缃�===========*/
+body{padding:0px; 
+	margin: 0px;}
+body,
+input,
+legend{font-size:18px;font-family:寰蒋闆呴粦;}
+body{background-color:#FFF;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-position:top right;}
+a{color:#000;text-decoration:none;}
+a:hover{ color:#FFF;}
+em{color:#900;font-size:1.1em;font-weight:bold;font-style:normal;}
+
+/*=========甯冨眬锛氱櫥褰曟敞鍐�==========*/
+#login{position:absolute;
+	width:380px;
+	top:0px;
+	bottom:0px;
+	left:0%;
+	height:100%;
+	background:#000;
+    color:#000;}
+
+/*=========琛ㄥ崟鍜岃〃鍗曢」===========*/	
+#login form{margin:100px 20px;}
+#login fieldset{padding:20px;}
+#login legend{color:#fff;}
+input[type=text], 
+input[type=password],
+select,
+textarea{width:80%;
+	height:30px;
+	border-radius: 5px;
+	margin:10px;
+	padding:2px 4px;
+    border: 2px solid #000;
+    background:#fff;}
+textarea{height:100px;}
+
+input:hover,
+select:hover,
+textarea:hover{border-color:#fff;}
+
+.btn{
+    display: inline-block;
+    border-radius: 5px;
+	width:160px;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	background:#666;
+	color:#000;
+	border: none;
+	text-decoration: none;
+	vertical-align:middle;
+}
+.btn{margin:5px 10px;}
+.btn:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+/*=======甯冨眬锛氬ご閮紝渚ф爮锛屼富鏍�========*/
+#header{
+	position: absolute; 
+	top:0px; 
+	left:0px; 
+	height:90px;
+	width: 100%;
+	border-bottom: 5px solid #ccc;
+	background-color: #777;
+	background-image: url(../images/01.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	color:#000;
+}
+#aside{
+	position: absolute; 
+	top:95px; 
+	left:0px;
+	bottom: 0px;
+	width: 350px;
+	border-right: 10px solid #ccc;
+	background-image: url(../images/02.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	overflow-y:auto;
+	background-color: #666;
+}
+#section{
+	position: absolute; 
+	top:95px; 
+	left:350px;
+	bottom: 0px;
+	right: 0px;
+	overflow-y:auto;
+}
+#sign{
+	position: absolute; 
+	top:300px; 
+	left:410px;
+	bottom: 0px;
+	right: 0px;
+	overflow-y:auto;
+}
+
+
+/*========澶撮儴鍏冪礌鐨勬牱寮�==========*/
+#header>div{padding-left:50px;}
+h1.logo{float:left;}
+div.home{float:right; color:#fff;}
+div.home a{margin:auto 15px;}
+
+
+/*==========涓绘爮閮ㄥ垎涓厓绱犵殑鏍峰紡=============*/
+#section>div{margin:15px;}
+.online ul li{list-style:none; display:inline-block; width:15%;}
+.ulogo{width:40px; height:40px;}
+
+#section table{margin:20px auto;}
+table{border-collapse:collapse; border:none;}
+table td{border-color:#fff; border-style:solid;}
+td{text-align:center;}
+tr.header td{text-align:center; font-weight:bold; background-color:#ccc}
+

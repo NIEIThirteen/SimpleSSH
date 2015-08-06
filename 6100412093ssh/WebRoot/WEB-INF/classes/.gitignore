@@ -1,0 +1,11 @@
+/action/
+/applicationContext.xml
+/com/
+/dao/
+/hibernate/
+/hibernate.cfg.xml
+/po/
+/service/
+/struts.xml
+/test/
+/util/

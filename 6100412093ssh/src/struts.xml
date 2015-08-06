@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.i18n.encoding" value="gb2312"></constant>
+	<package name="struts2"  extends="struts-default">
+		<action name="dengluu" class="dengluAction">
+			<result name="success">/jsp/adminHome.jsp</result>
+			<result name="shibai">/jsp/login.jsp</result>
+		</action>
+		<action name="sign_*" method= "{1} " class="signAction">
+			<result name="successin">/jsp/1.jsp</result>
+			<result name="successout">/jsp/adminHome.jsp</result>
+			<result name="showindex">/jsp/signIndex.jsp</result>
+		</action>
+		<action name="class_*" method= "{1} " class="classAction">
+			<result name="clazzindex">/jsp/classIndex.jsp</result>
+			<result name="clazzdelete">/jsp/classIndex.jsp</result>
+			<result name="clazzadd">/jsp/classupdate.jsp</result>
+		</action>
+		<action name="user_*" method= "{1} " class="userAction">
+			<result name="studentindex">/jsp/studentIndex.jsp</result>
+			<result name="studentview">/jsp/studentview.jsp</result>
+			<result name="studentupdate">/jsp/studentUpdate.jsp</result>
+			<result name="registerpage">/jsp/register.jsp</result>
+			<result name="registersuccess">/jsp/login.jsp</result>
+			<result name="registerfalse">/jsp/login.jsp</result>
+		</action>
+	</package>	
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+</struts>    
